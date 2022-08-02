@@ -1,0 +1,11 @@
+hypertext   markup language
+
+tag ? 속성을 정의
+<태그명 속성 > 컨텐츠 </태그명>
+<a href="https://www.instagram.com/kyooungbin/"> kim's instagram </a>
+<img src = "" width = "" \>
+
+<strong> </strong> : 굵은 글씨
+<u> </u> : 언더라인
+<br> : 줄바꿈
+<p> </p> : 단락 테그
