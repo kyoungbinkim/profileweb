@@ -2,6 +2,9 @@ hypertext   markup language
 
 tag ? 속성을 정의
 <태그명 속성 > 컨텐츠 </태그명>
+
+<body> : 본문의 내용을 적는다
+
 <a href="https://www.instagram.com/kyooungbin/"> kim's instagram </a>
 <img src = "" width = "" \>
 
@@ -9,3 +12,14 @@ tag ? 속성을 정의
 <u> </u> : 언더라인
 <br> : 줄바꿈
 <p> </p> : 단락 테그
+<ul> : 순서가 없는 리스트 구분
+<ol> : 순서가 있는 리스트 구분
+<li> : 리스트 내부 한줄 구분
+
+<div> or <span> : 아무런 기능 없다. css를 넣기위해 사용
+
+
+
+css 기초 (클래스 > id : 아이디가 더 작은 개념 따라서 우선순위가 더 높다.)
+. --> class
+# --> id
