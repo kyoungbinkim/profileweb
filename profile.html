@@ -1,157 +1,197 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Windows Native LLM Serving과 분산 AI를 연구·개발하는 김경빈의 프로필입니다.">
+    <meta name="theme-color" content="#0b0d10">
     <link rel="stylesheet" href="./style.css">
-    <title> .</title>
-    <style>
-        video { min-width: 44%; max-width: 45%; margin: 20px auto; }
-        img { min-width: 45%; max-width: 45%; margin: 5px auto; }
-        .my { min-width: 17.55%; max-width: 18.55%; margin: 20px auto; }
-        .myImg {min-height: 10%; max-width: 10%; margin: 5px auto;}
-    </style>
+    <title>김경빈 | AI Systems Engineer</title>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CX3VEQLCXD"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-CX3VEQLCXD');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CX3VEQLCXD');
     </script>
-
 </head>
 <body>
-    
-    <p style="margin-top: 63px; margin-left: 30px; margin-right: 30px;">
-        Hi, I am conducting advanced blockchain research and development at <a href="https://www.lge.co.kr/" target="_blank">LG Electronics</a>. I graduated with a master's degree from <a href="https://sites.google.com/site/itspkmu" target="_blank">ITSP Lab.</a> 
-        I interest in various decentralized AI, digital signature, zk-SNARK, Block Chain technology. Before Studying cryptography, I studied computer Vision. Please check my <a href="https://www.instagram.com/kyooungbin/" target="_blank"> Instagram</a> , 
-        <a href="https://www.facebook.com/profile.php?id=100004079262768" target="_blank">FaceBook</a>,
-        <a href="https://github.com/kyoungbinkim" target="_blank" >GitHub</a> and
-        <a href="https://solved.ac/profile/rudqls02" target="_blank">BaekJun</a><br>
-    </p>
+    <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="처음으로">KBK<span>.</span></a>
+        <nav aria-label="주요 메뉴">
+            <a href="#about">About</a>
+            <a href="#career">Career</a>
+            <a href="#projects">Projects</a>
+            <a class="nav-contact" href="mailto:kyoungbin.kim@lge.com">Contact</a>
+        </nav>
+    </header>
 
-    <p style="margin-top: 23px; margin-left: 33px;">
-        email : <a href="mailto:kyoungbin@kookmin.ac.kr">kyoungbin.kim@lge.com</a><br>
-        office : LG Electronics R&D Campus Seocho <br>
-    </p>
-    
-    
-    <p style="margin-top: 33px;">
-        <h3 style="margin-left: 30px;">Career</h3>
-        <ul>
-            <li>LG Electronics SW Platform Lab Blockchain 2024 ~ 2025 </li>
-            <li>LG Electronics Next Generation Computing Research Lab DeAI Task 2026 ~ </li>
-       </ul>
-    </p>
+    <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> AI Systems Engineer · Seoul</p>
+                <h1 id="hero-title">로컬에서 더 빠르고<br><em>가까운 AI</em>를 만듭니다.</h1>
+                <p class="hero-description">
+                    LG전자 CTO부문 Next Generation Computing Research Lab, DeAI Task에서
+                    <strong>Windows Native LLM Serving Engine</strong>을 개발하고 있습니다.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#career">경력 보기 <span aria-hidden="true">↘</span></a>
+                    <a class="button button-secondary" href="https://github.com/kyoungbinkim" target="_blank" rel="noreferrer">GitHub ↗</a>
+                </div>
+            </div>
+            <div class="portrait-wrap">
+                <div class="portrait-accent" aria-hidden="true"></div>
+                <img class="portrait" src="./img/kim_1.jpeg" alt="김경빈 프로필 사진">
+                <div class="status-card">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    <div><small>CURRENTLY BUILDING</small><strong>Native LLM Serving</strong></div>
+                </div>
+            </div>
+        </section>
 
-    <p style="margin-top: 33px;">
-        <h3 style="margin-left: 30px;">Education</h3>
-        <ul>
-            <li>M.S graduated in Electronic Engineering, Kookmin University <a href="https://sites.google.com/site/itspkmu" target="_blank">ITSP Lab</a>, Seoul </li>
-            <li>B.S graduated in Electronic Engineering, Kookmin University, Seoul</li>
-        </ul>
-    </p>
-    
-    <p style="margin-top: 23px;">
-        <h3 style="margin-left: 30px;">Projects</h3>
-        <ul>
-            <li style="margin-top: 15px;">
-                DeLAP (Decentralized LG AI Platform) : 분산 AI를 위한 컴퓨팅 파워 대여 플랫폼
-            </li>
+        <section class="section about" id="about" aria-labelledby="about-title">
+            <p class="section-number">01 / ABOUT</p>
+            <div class="section-content about-grid">
+                <h2 id="about-title">연구를 제품 가까이,<br>아이디어를 동작하는 시스템으로.</h2>
+                <div>
+                    <p>
+                        AI 모델이 실제 사용자 환경에서 효율적으로 동작하도록 만드는 일에 집중합니다.
+                        현재는 Windows 환경의 네이티브 LLM 추론·서빙 엔진을 개발하고 있습니다.
+                    </p>
+                    <p>
+                        이전에는 분산 AI, 블록체인, 디지털 서명, 영지식 증명을 연구·개발했으며,
+                        컴퓨터 비전과 전자공학을 기반으로 문제를 폭넓게 탐구해 왔습니다.
+                    </p>
+                    <ul class="tags" aria-label="주요 관심 분야">
+                        <li>LLM Serving</li>
+                        <li>Windows Native</li>
+                        <li>Decentralized AI</li>
+                        <li>Blockchain</li>
+                        <li>Privacy Tech</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-            <li style="margin-top: 15px;">
-                LHAtube (LG Home Appliances tube) : 블록체인을 활용한 탄소 배출권 프로젝트
-                <ul style="margin-top: 5px;">
-                    <li>solana smart contract : 토큰 발생, swap</li>
-                    <li>mqtt 컨낵터 개발</li>
-                    <li>가상 건조기 개발</li>
-                </ul>
-            </li>
+        <section class="section" id="career" aria-labelledby="career-title">
+            <p class="section-number">02 / CAREER</p>
+            <div class="section-content">
+                <h2 id="career-title">Experience</h2>
+                <div class="timeline">
+                    <article class="timeline-item current">
+                        <div class="timeline-period">2026 — PRESENT</div>
+                        <div>
+                            <p class="company">LG Electronics · CTO Division</p>
+                            <h3>Next Generation Computing Research Lab</h3>
+                            <p class="role">DeAI Task</p>
+                            <p>Windows에서 동작하는 Native LLM Serving Engine을 개발합니다.</p>
+                        </div>
+                    </article>
+                    <article class="timeline-item">
+                        <div class="timeline-period">2024 — 2025</div>
+                        <div>
+                            <p class="company">LG Electronics</p>
+                            <h3>SW Platform Lab</h3>
+                            <p class="role">Blockchain R&amp;D</p>
+                            <p>분산 AI 플랫폼과 블록체인 기반 서비스를 연구·개발했습니다.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-            <li style="margin-top: 15px;">
-                <a style="margin-bottom: 50px; font-size: larger;" href="//github.com/kyoungbinkim/profileweb/raw/main/doc/BEST_PoR.pdf" target="_blank" title="paper">실시간 검증 지원 프라이버시 보호 고속 Proof of Reserve</a>
-                <ul style="margin-top: 5px;">
-                    <li><a style="margin-bottom: 50px; " href="//github.com/kyoungbinkim/profileweb/raw/main/doc/PoR scheme.pdf" target="_blank" title="paper">상세 알고리즘</a></li>
-                    <li><a style="margin-bottom: 50px;" href="https://github.com/kyoungbinkim/Proof-of-Reserves" target="_blank" title="paper"> solidity Smart contract, Nodejs Server and React web source code</a></li>
-                    <li><a style="margin-bottom: 50px;" href="https://www.kisa.or.kr/402/form?postSeq=2305"> KISA, 블록체인·핀테크 경진대회「BEST Challenge」 최우수상 수상</a></li>
-                </ul>
-            </li>
-            <img src="./doc/PoR demo.gif">
-            <img src="./img/kisa5.jpg">
+        <section class="section" id="projects" aria-labelledby="projects-title">
+            <p class="section-number">03 / SELECTED WORK</p>
+            <div class="section-content">
+                <div class="section-heading">
+                    <h2 id="projects-title">Projects</h2>
+                    <a href="https://github.com/kyoungbinkim?tab=repositories" target="_blank" rel="noreferrer">All repositories ↗</a>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card project-featured">
+                        <p class="project-index">01</p>
+                        <div>
+                            <p class="project-type">AI AGENT · OPEN SOURCE</p>
+                            <h3>give-me-job</h3>
+                            <p>이력서 근거부터 맞춤형 자기소개서와 면접 준비까지 이어지는 한국 취업 지원 AI Agent Toolkit.</p>
+                            <ul class="project-tags"><li>JavaScript</li><li>Agent Skills</li><li>AI</li></ul>
+                        </div>
+                        <a class="card-link" href="https://github.com/kyoungbinkim/give-me-job" target="_blank" rel="noreferrer" aria-label="give-me-job GitHub 저장소 열기">↗</a>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-index">02</p>
+                        <div>
+                            <p class="project-type">DECENTRALIZED AI</p>
+                            <h3>DeLAP</h3>
+                            <p>분산 AI를 위한 컴퓨팅 파워 대여 플랫폼.</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-index">03</p>
+                        <div>
+                            <p class="project-type">BLOCKCHAIN · AWARD</p>
+                            <h3>Proof of Reserve</h3>
+                            <p>실시간 검증을 지원하는 프라이버시 보호 고속 준비금 증명. KISA BEST Challenge 최우수상.</p>
+                        </div>
+                        <a class="card-link" href="https://github.com/kyoungbinkim/Proof-of-Reserves" target="_blank" rel="noreferrer" aria-label="Proof of Reserve GitHub 저장소 열기">↗</a>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-index">04</p>
+                        <div>
+                            <p class="project-type">ZERO-KNOWLEDGE PROOF</p>
+                            <h3>Privacy Data Trade</h3>
+                            <p>영지식 증명 기반 공개 블록체인용 프라이버시 보호 디지털 콘텐츠 거래 시스템.</p>
+                        </div>
+                        <a class="card-link" href="https://github.com/kyoungbinkim/dataTrade-dev" target="_blank" rel="noreferrer" aria-label="Privacy Data Trade GitHub 저장소 열기">↗</a>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-index">05</p>
+                        <div>
+                            <p class="project-type">COMPUTER VISION</p>
+                            <h3>Golf Pose Coach</h3>
+                            <p>OpenPose와 TensorFlow를 활용한 골프 자세 교정 소프트웨어.</p>
+                        </div>
+                        <a class="card-link" href="./doc/openpose-tensorflow-golf-pose.pdf" target="_blank" aria-label="Golf Pose Coach 문서 열기">↗</a>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-            
+        <section class="section education" aria-labelledby="education-title">
+            <p class="section-number">04 / EDUCATION</p>
+            <div class="section-content education-grid">
+                <h2 id="education-title">Education</h2>
+                <div>
+                    <article>
+                        <p>M.S. in Electronic Engineering</p>
+                        <h3>Kookmin University</h3>
+                        <a href="https://sites.google.com/site/itspkmu" target="_blank" rel="noreferrer">ITSP Lab ↗</a>
+                    </article>
+                    <article>
+                        <p>B.S. in Electronic Engineering</p>
+                        <h3>Kookmin University</h3>
+                        <span>Seoul, Korea</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
 
-            <li style="margin-top: 50px;">  
-                <a style="margin-bottom: 50px; font-size: larger;" href="//github.com/kyoungbinkim/profileweb/raw/main/doc/dataTrade_presentation.pdf" target="_blank" title="paper"> 영지식 증명 기반 공개 블록체인용 프라이버시 보호 디지털 콘텐츠 거래 시스템</a>
-                
-                <ul style="margin-top: 4px;">
-                    <li><a style="margin-bottom: 50px;" href="https://github.com/kyoungbinkim/dataTrade-dev" target="_blank" title="paper"> solidity Smart contract, Nodejs Server and React web source code</a></li>
-                    <li><a style="margin-bottom: 50px;" href="https://github.com/kyoungbinkim/dataTradeApp" target="_blank" title="paper"> React Native App source code</a></li>
-                </ul>
-            </li> 
-            <img src="./doc/dataTradeWeb_demo.gif">
-            <img src="./doc/dataTradeApp_demo.gif">
-
-            <li style="margin-top: 50px;">
-                <a style="margin-bottom: 50px; font-size: larger;" href="//github.com/kyoungbinkim/profileweb/raw/main/doc/Efficient_Proof_of_Replication_and_Proof_of_Spacetime.pdf" target="_blank" title="paper">효율적인 저장 증명 (중단)</a>
-            </li>
-            <img src="./doc/PoST_protocol_overview.png">
-
-            <li style="margin-top: 50px;">
-                <a style=" margin-bottom: 50px; font-size: larger;" href="//github.com/kyoungbinkim/profileweb/raw/main/doc/openpose-tensorflow-golf-pose.pdf" target="_blank" title="paper" >openpose와 tensorflow를 이용한 골프자세 교정 소프트웨어</a>
-            </li>
-            <video muted autoplay loop>
-                <source src="./doc/golf-demo2.mp4" type="video/mp4">
-                <strong>Your browser does not support the video tag.</strong>
-            </video>
-            <video muted autoplay loop class="my">
-                <source style="max-width: 25%;" src="./doc/golf-demo1.mp4" type="video/mp4">
-                <strong>Your browser does not support the video tag.</strong>
-            </video>
-
-            <li style="margin-top: 50px;">
-                <a style="margin-bottom: 50px; font-size: larger;" href="//github.com/kyoungbinkim/profileweb/raw/main/doc/시각장애인%20보행%20유도를%20위한%20점자블록%20패턴%20검출%20기법.pdf" target="_blank" title="paper">시각장애인 보행유도를 위한 점자블록 패턴검출기법</a>
-            </li>
-            <video muted autoplay loop>
-                <source src="./doc/demo.mp4" type="video/mp4">
-                <strong>Your browser does not support the video tag.</strong>
-            </video>
-           
-
-
-            <li style="margin-top: 50px;">
-                <a href="https://github.com/kyoungbinkim/profileweb/blob/08b58b2bc797359b1df38f77ee9faab7c527dc41/doc/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4%EC%99%80%20dlib%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%96%BC%EA%B5%B4%EC%9D%B8%EC%8B%9D%20%ED%95%84%ED%84%B0.pdf"> 라즈베리파이와 dlib을 이용한 얼굴인식 필터</a>
-                <ul>
-                    <li>
-                        <a href="https://raw.githubusercontent.com/kyoungbinkim/profileweb/main/doc/ras_dlib.py"> source code</a>
-                    </li>
-                </ul>
-            </li>
-            <img src="./doc/ras_dlib_demo.png" class="myImg">            
-        </ul>
-    </p>
-
-    <div id="disqus_thread" style="margin-top: 5%;"></div>
-    <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://kim-19.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <footer>
+        <div>
+            <p class="eyebrow"><span></span> LET'S CONNECT</p>
+            <h2>좋은 기술과 아이디어에 대해<br>이야기 나눠요.</h2>
+        </div>
+        <div class="footer-links">
+            <a href="mailto:kyoungbin.kim@lge.com">Email ↗</a>
+            <a href="https://github.com/kyoungbinkim" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://kr.linkedin.com/in/%EA%B2%BD%EB%B9%88-%EA%B9%80-343150250" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="https://solved.ac/profile/rudqls02" target="_blank" rel="noreferrer">Solved.ac ↗</a>
+        </div>
+        <p class="copyright">© 2026 Kyoungbin Kim. Built with HTML &amp; CSS.</p>
+    </footer>
 </body>
 </html>
