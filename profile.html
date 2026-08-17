@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Windows Native LLM Serving과 분산 AI를 연구·개발하는 김경빈의 프로필입니다.">
-    <meta name="theme-color" content="#0b0d10">
+    <meta name="theme-color" content="#000000">
     <link rel="stylesheet" href="./style.css">
     <title>김경빈 | AI Systems Engineer</title>
 
@@ -19,14 +19,27 @@
 </head>
 <body>
     <header class="site-header">
-        <a class="wordmark" href="#top" aria-label="처음으로">KBK<span>.</span></a>
-        <nav aria-label="주요 메뉴">
-            <a href="#about">About</a>
-            <a href="#career">Career</a>
-            <a href="#opensource">Open Source</a>
-            <a href="#projects">Projects</a>
-            <a class="nav-contact" href="mailto:kyoungbin.kim@lge.com">Contact</a>
-        </nav>
+        <div class="global-nav">
+            <div class="nav-shell">
+                <a class="wordmark" href="#top" aria-label="처음으로">🙂</a>
+                <nav aria-label="주요 메뉴">
+                    <a href="#career">Career</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#award">Award</a>
+                    <a href="#opensource">Open Source</a>
+                    <a href="#about">About</a>
+                </nav>
+            </div>
+        </div>
+        <div class="sub-nav">
+            <div class="nav-shell">
+                <a class="sub-nav-title" href="#top">Kyoungbin Kim</a>
+                <div class="sub-nav-actions">
+                    <span>AI Systems Engineer</span>
+                    <a class="nav-contact" href="mailto:kyoungbin.kim@lge.com">Contact</a>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main id="top">
@@ -44,8 +57,7 @@
                 </div>
             </div>
             <div class="portrait-wrap">
-                <div class="portrait-accent" aria-hidden="true"></div>
-                <img class="portrait" src="./img/kim_1.jpeg" alt="김경빈 프로필 사진">
+                <img class="portrait" src="./img/kim_2.jpeg" alt="노트북으로 개발 중인 김경빈">
                 <div class="status-card">
                     <span class="status-dot" aria-hidden="true"></span>
                     <div><small>CURRENTLY BUILDING</small><strong>Native LLM Serving</strong></div>
@@ -53,33 +65,8 @@
             </div>
         </section>
 
-        <section class="section about" id="about" aria-labelledby="about-title">
-            <p class="section-number">01 / ABOUT</p>
-            <div class="section-content about-grid">
-                <h2 id="about-title">연구를 제품 가까이,<br>아이디어를 동작하는 시스템으로.</h2>
-                <div>
-                    <p>
-                        AI 모델이 실제 사용자 환경에서 효율적으로 동작하도록 만드는 일에 집중합니다.
-                        현재는 Windows 환경의 네이티브 LLM 추론·서빙 엔진을 개발하고 있습니다.
-                    </p>
-                    <p>
-                        국민대학교 전자공학 석사 과정에서 영지식 증명(Zero-Knowledge Proof)을 전공하며
-                        프라이버시 보호 프로토콜과 블록체인 응용을 연구했습니다. 이후 분산 AI와
-                        블록체인 서비스를 개발하며 연구를 실제 시스템으로 확장해 왔습니다.
-                    </p>
-                    <ul class="tags" aria-label="주요 관심 분야">
-                        <li>LLM Serving</li>
-                        <li>Windows Native</li>
-                        <li>Decentralized AI</li>
-                        <li>Blockchain</li>
-                        <li>Privacy Tech</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
         <section class="section" id="career" aria-labelledby="career-title">
-            <p class="section-number">02 / CAREER</p>
+            <p class="section-number">01 / CAREER</p>
             <div class="section-content">
                 <h2 id="career-title">Experience</h2>
                 <div class="timeline">
@@ -105,8 +92,117 @@
             </div>
         </section>
 
+        <section class="section" id="projects" aria-labelledby="projects-title">
+            <p class="section-number">02 / SELECTED WORK</p>
+            <div class="section-content">
+                <div class="section-heading">
+                    <h2 id="projects-title">Projects</h2>
+                    <a href="https://github.com/kyoungbinkim?tab=repositories" target="_blank" rel="noreferrer">All repositories ↗</a>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card project-featured">
+                        <p class="project-index">01</p>
+                        <div>
+                            <p class="project-type">ZERO-KNOWLEDGE PROOF · AWARD</p>
+                            <h3>Proof of Reserve</h3>
+                            <p>실시간 검증을 지원하는 프라이버시 보호 고속 준비금 증명. KISA BEST Challenge 최우수상 수상 프로젝트.</p>
+                            <ul class="project-tags"><li>zk-SNARK</li><li>Solidity</li><li>Privacy</li></ul>
+                        </div>
+                        <img class="project-media" src="./doc/PoR demo.gif" alt="Proof of Reserve 실시간 검증 데모" loading="lazy">
+                        <a class="card-link" href="https://github.com/kyoungbinkim/Proof-of-Reserves" target="_blank" rel="noreferrer" aria-label="Proof of Reserve GitHub 저장소 열기">↗</a>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-index">02</p>
+                        <div>
+                            <p class="project-type">AI AGENT · OPEN SOURCE</p>
+                            <h3>give-me-job</h3>
+                            <p>이력서 근거부터 맞춤형 자기소개서와 면접 준비까지 이어지는 한국 취업 지원 AI Agent Toolkit.</p>
+                        </div>
+                        <a class="card-link" href="https://github.com/kyoungbinkim/give-me-job" target="_blank" rel="noreferrer" aria-label="give-me-job GitHub 저장소 열기">↗</a>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-index">03</p>
+                        <div>
+                            <p class="project-type">DECENTRALIZED AI</p>
+                            <h3>DeLAP</h3>
+                            <p>분산 AI를 위한 컴퓨팅 파워 대여 플랫폼.</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-index">04</p>
+                        <div>
+                            <p class="project-type">ZERO-KNOWLEDGE PROOF</p>
+                            <h3>Privacy Data Trade</h3>
+                            <p>영지식 증명 기반 공개 블록체인용 프라이버시 보호 디지털 콘텐츠 거래 시스템.</p>
+                        </div>
+                        <a class="card-link" href="https://github.com/kyoungbinkim/dataTrade-dev" target="_blank" rel="noreferrer" aria-label="Privacy Data Trade GitHub 저장소 열기">↗</a>
+                    </article>
+                    <article class="project-card">
+                        <p class="project-index">05</p>
+                        <div>
+                            <p class="project-type">COMPUTER VISION</p>
+                            <h3>Golf Pose Coach</h3>
+                            <p>OpenPose와 TensorFlow를 활용한 골프 자세 교정 소프트웨어.</p>
+                        </div>
+                        <a class="card-link" href="./doc/openpose-tensorflow-golf-pose.pdf" target="_blank" aria-label="Golf Pose Coach 문서 열기">↗</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section award" id="award" aria-labelledby="award-title">
+            <p class="section-number">03 / AWARD</p>
+            <div class="section-content">
+                <div class="section-heading">
+                    <h2 id="award-title">Award &amp; Recognition</h2>
+                    <a href="https://www.kisa.or.kr/402/form?postSeq=2305" target="_blank" rel="noreferrer">Official announcement ↗</a>
+                </div>
+                <div class="award-copy">
+                    <p class="award-kicker">2023 · KISA BEST Challenge</p>
+                    <h3>블록체인·핀테크 경진대회<br>최우수상</h3>
+                    <p>
+                        영지식 증명을 활용한 고속 Proof of Reserve로 실시간 검증과 프라이버시 보호를 함께 구현해
+                        한국인터넷진흥원장상을 수상했습니다.
+                    </p>
+                    <div class="award-links">
+                        <a href="./doc/BEST_PoR.pdf" target="_blank">Presentation ↗</a>
+                        <a href="./doc/PoR scheme.pdf" target="_blank">Technical paper ↗</a>
+                    </div>
+                </div>
+                <figure class="award-photo">
+                    <img src="./img/kisa5.jpg" alt="2023 KISA BEST Challenge 최우수상 수상 기념사진" loading="lazy">
+                    <figcaption>2023 BEST Challenge 최우수상 · 한국인터넷진흥원장상</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="section about" id="about" aria-labelledby="about-title">
+            <p class="section-number">04 / ABOUT</p>
+            <div class="section-content about-grid">
+                <h2 id="about-title">연구를 제품 가까이,<br>아이디어를 동작하는 시스템으로.</h2>
+                <div>
+                    <p>
+                        AI 모델이 실제 사용자 환경에서 효율적으로 동작하도록 만드는 일에 집중합니다.
+                        현재는 Windows 환경의 네이티브 LLM 추론·서빙 엔진을 개발하고 있습니다.
+                    </p>
+                    <p>
+                        국민대학교 전자공학 석사 과정에서 영지식 증명(Zero-Knowledge Proof)을 전공하며
+                        프라이버시 보호 프로토콜과 블록체인 응용을 연구했습니다. 이후 분산 AI와
+                        블록체인 서비스를 개발하며 연구를 실제 시스템으로 확장해 왔습니다.
+                    </p>
+                    <ul class="tags" aria-label="주요 관심 분야">
+                        <li>LLM Serving</li>
+                        <li>Windows Native</li>
+                        <li>Zero-Knowledge Proof</li>
+                        <li>Decentralized AI</li>
+                        <li>Privacy Tech</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <section class="section" id="opensource" aria-labelledby="opensource-title">
-            <p class="section-number">03 / OPEN SOURCE</p>
+            <p class="section-number">05 / OPEN SOURCE</p>
             <div class="section-content">
                 <div class="section-heading">
                     <h2 id="opensource-title">Contributions</h2>
@@ -145,65 +241,8 @@
             </div>
         </section>
 
-        <section class="section" id="projects" aria-labelledby="projects-title">
-            <p class="section-number">04 / SELECTED WORK</p>
-            <div class="section-content">
-                <div class="section-heading">
-                    <h2 id="projects-title">Projects</h2>
-                    <a href="https://github.com/kyoungbinkim?tab=repositories" target="_blank" rel="noreferrer">All repositories ↗</a>
-                </div>
-                <div class="project-grid">
-                    <article class="project-card project-featured">
-                        <p class="project-index">01</p>
-                        <div>
-                            <p class="project-type">AI AGENT · OPEN SOURCE</p>
-                            <h3>give-me-job</h3>
-                            <p>이력서 근거부터 맞춤형 자기소개서와 면접 준비까지 이어지는 한국 취업 지원 AI Agent Toolkit.</p>
-                            <ul class="project-tags"><li>JavaScript</li><li>Agent Skills</li><li>AI</li></ul>
-                        </div>
-                        <a class="card-link" href="https://github.com/kyoungbinkim/give-me-job" target="_blank" rel="noreferrer" aria-label="give-me-job GitHub 저장소 열기">↗</a>
-                    </article>
-                    <article class="project-card">
-                        <p class="project-index">02</p>
-                        <div>
-                            <p class="project-type">DECENTRALIZED AI</p>
-                            <h3>DeLAP</h3>
-                            <p>분산 AI를 위한 컴퓨팅 파워 대여 플랫폼.</p>
-                        </div>
-                    </article>
-                    <article class="project-card">
-                        <p class="project-index">03</p>
-                        <div>
-                            <p class="project-type">BLOCKCHAIN · AWARD</p>
-                            <h3>Proof of Reserve</h3>
-                            <p>실시간 검증을 지원하는 프라이버시 보호 고속 준비금 증명. KISA BEST Challenge 최우수상.</p>
-                        </div>
-                        <a class="card-link" href="https://github.com/kyoungbinkim/Proof-of-Reserves" target="_blank" rel="noreferrer" aria-label="Proof of Reserve GitHub 저장소 열기">↗</a>
-                    </article>
-                    <article class="project-card">
-                        <p class="project-index">04</p>
-                        <div>
-                            <p class="project-type">ZERO-KNOWLEDGE PROOF</p>
-                            <h3>Privacy Data Trade</h3>
-                            <p>영지식 증명 기반 공개 블록체인용 프라이버시 보호 디지털 콘텐츠 거래 시스템.</p>
-                        </div>
-                        <a class="card-link" href="https://github.com/kyoungbinkim/dataTrade-dev" target="_blank" rel="noreferrer" aria-label="Privacy Data Trade GitHub 저장소 열기">↗</a>
-                    </article>
-                    <article class="project-card">
-                        <p class="project-index">05</p>
-                        <div>
-                            <p class="project-type">COMPUTER VISION</p>
-                            <h3>Golf Pose Coach</h3>
-                            <p>OpenPose와 TensorFlow를 활용한 골프 자세 교정 소프트웨어.</p>
-                        </div>
-                        <a class="card-link" href="./doc/openpose-tensorflow-golf-pose.pdf" target="_blank" aria-label="Golf Pose Coach 문서 열기">↗</a>
-                    </article>
-                </div>
-            </div>
-        </section>
-
         <section class="section education" aria-labelledby="education-title">
-            <p class="section-number">05 / EDUCATION</p>
+            <p class="section-number">06 / EDUCATION</p>
             <div class="section-content education-grid">
                 <h2 id="education-title">Education</h2>
                 <div>
@@ -236,5 +275,8 @@
         </div>
         <p class="copyright">© 2026 Kyoungbin Kim. Built with HTML &amp; CSS.</p>
     </footer>
+    <script>
+        document.querySelector('.wordmark').textContent = ['🙂', '😀', '😎', '🤓', '🧐', '😊', '🥳', '🫡'][Math.floor(Math.random() * 8)];
+    </script>
 </body>
 </html>
