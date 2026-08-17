@@ -289,6 +289,7 @@ footer h2 { font-size: clamp(40px, 4.2vw, 56px); }
     .section-heading { align-items: start; flex-direction: column; }
     .timeline-item { min-height: 320px; padding: 36px 24px; }
     .award-copy { margin-block: 56px; }
+    .award-photo img { aspect-ratio: 16 / 9; }
     .contribution-stats { gap: 32px; }
     .contribution-stats strong { font-size: 44px; }
     .contribution-list, .project-grid { grid-template-columns: 1fr; }
